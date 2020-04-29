@@ -183,7 +183,7 @@ nav {
     padding: 5rem;
     margin: 10rem auto;
     background-color: #fff;
-    box-shadow: 0 1.4rem 8rem rgba(0,0,0,2);
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,.3);
     display: flex;
     align-items: center;
     border-radius: 2rem;
@@ -250,11 +250,80 @@ nav {
 }
 
 
+/* Styling for section-four */
+.section-four {
+    background-image: "assets/contact_us.svg"; 
+    align-items: center;
+    justify-content: center; 
+}
 
+form{
+    max-width:518px;
+    width:100%;
+    margin:30px auto;
+    background: transparent;
+    border-radius:15px;
+}
+
+form h1 {
+    font-size:27px;
+    color:#ffffff;
+    font-style:italic;
+    line-height:normal;
+    text-align:center;
+    background:rgba(79, 172, 254, .8);
+    text-shadow:1px 1px 1px #151515;
+    padding:20px;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    margin-bottom:0;
+}
+
+form .innercontent {
+    padding:10px 30px 30px 30px ;
+}
+
+form .innercontent .inputfield {
+    max-width:100%;
+    transition:all 0.5 ease;
+}
+
+form .innercontent .inputfield .input-beauty {
+    color:#000;
+    border:1px solid #FF7F00;
+    box-shadow:0px 4px 0px rgba(0, 0, 0, 0.527);
+    border-radius:10px;
+    max-width:100%;
+    font-style:italic;
+    width:100%;
+    line-height:40px;
+    margin-top:25px;
+    font-size:15px; 
+    padding:0 2%;
+}
+
+form .innercontent .inputfield .button-beauty {
+    background: rgba(79, 172, 254, .8);
+    color:#ffffff;
+    border:1px solid #074182;
+    box-shadow:0px 4px 0px #091c3e;
+    border-radius:10px;
+    max-width:100%;
+    font-style:normal;
+    width:100%;
+    line-height:40px;
+    margin-top:25px;
+    font-size:18px; 
+    font-weight:bold;
+}
+
+
+
+/* Styling for footer */
 footer {
-    
+    font-weight: bold;
     padding: 2.5rem 0;
-    background-color: #d7d4ed;
+    background-color: rgba(79, 172, 254, .8);
     text-align: center;
     font-style: italic;
     color: rgba(0, 0, 0, 0.7);
@@ -397,6 +466,10 @@ footer {
 
     .nav-link {
         color: rgba(0, 0, 0, 0.692);
+    }
+
+    footer {
+        font-size: 2.5rem;
     }
 }
 
